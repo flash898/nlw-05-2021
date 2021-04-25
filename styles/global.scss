@@ -19,15 +19,21 @@
   --purple-400: #9164FA; 
   --purple-500: #8257E5;
   --purple-800: #6F48C9;
+
+  --dark-300: #1a1919;
+  --dark-500: #0e0d0d;
+  --dark-800: #0c0c0c;
+
+  --red-500: #990821;
 }
 
 body {
-  background: var(--gray-50);
+  background: var(--dark-500);
 }
 
 body, input, textarea, button {
   font: 500 1rem Inter, sans-serif;
-  color: var(--gray-500);
+  color: var(--red-500);
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -99,7 +99,7 @@ const [progress, setProgress] = useState(0);
                 value={progress}
                 onChange={handleSeek}
                 trackStyle={{ backgroundColor: '#04d361'}}
-                railStyle={{ backgroundColor: '#9f75ff'}}
+                railStyle={{ backgroundColor: '#990821'}}
                 handleStyle={{ borderColor: '#04d361', borderWidth: 4}}
               />
             ) : (
